@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>ITU-base</title>
+</head>
+
+<body>
+    <div class="all_in_one">
+        <header class="header">
+            <div class="container">
+                <div class="header__logo">
+                    <a href="Class_for_inner"><img class="header_logo-img" src="img/Logo.png" alt=""></a>                    
+                </div>
+                <nav class="header__nav">
+                    <a href="tables_information.html" target="_blank">Описание таблиц</a>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <div class="instruction">Выберете необходимую вам таблицу и диапазон дат <br>
+                    С описанием информации в таблицах вы можете ознакомиться по
+                    <a href="tables_information.html" class="link_to_description">ссылке </a>
+                </div>
+                <select id="tables" class="choose_table">
+                    <option value="Adm_info">Adm_info</option>
+                    <option value="Ant_type">Ant_type</option>
+                    <option value="Notice">Notice</option>
+                    <option value="Ntc_memo">Ntc_memo</option>
+                    <option value="Attch">Attch</option>
+                    <option value="Sats_UNIQ">Sats_UNIQ</option>
+                    <option value="Sats">Sats</option>
+                    <option value="Non_geo">Non_geo</option>
+                    <option value="Geo">Geo</option>
+                    <option value="Strap">Strap</option>
+                    <option value="E_stn_Uniq">E_stn_Uniq</option>
+                    <option value="E_stn">E_stn</option>
+                    <option value="Ngma">Ngma</option>
+                    <option value="S_beam">S_beam</option>
+                    <option value="Hor_elev">Hor_elev</option>
+                    <option value="E_ant">E_ant</option>
+                    <option value="Grp">Grp</option>
+                    <option value="Assgn">Assgn</option>
+                    <option value="Freq">Freq</option>
+                    <option value="Emiss">Emiss</option>
+                    <option value="Srv_cls">Srv_cls</option>
+                    <option value="Srv_area">Srv_area</option>
+                    <option value="S_as_stn">S_as_stn</option>
+                    <option value="E_as_stn">E_as_stn</option>
+                    <option value="Orbit">Orbit</option>
+                    <option value="Phase">Phase</option>
+                </select>
+                <div class="input_date">
+                    <label class="start_date" name="start_date">
+                        <span class="date_text">Начало диапазона: </span>
+                        <input type="date" id="datepicker1" value="10.02.2021">
+                    </label>
+                    <label class="end_date" name="end_date">
+                        <span class="date_text">Конец диапазона: </span>
+                        <input type="date" id="datepicker2" value="10.02.2021">
+                    </label>
+                </div>
+                <div class="submit_button">
+                    <input type="button" class="submit" value="Получить" onClick="Complete();">
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer_copy">
+                    <a href="#" class="phone">8-800-225-35-35</a>/<a href="#" class="e-mail">info@anc.space</a>
+                </div>
+                <div class="footer_img_cont">
+                    <img src="img/Logo_circle.png" alt="" class="footer_img">
+                </div>
+                <div class="footer_2nd_part">
+                    тут хз, может адрес
+                </div>
+                </ul>
+            </div>
+        </footer>
+    </div>    
+    
+    <script src="js/main.js"></script>    
+
+</body>
+
+</html>

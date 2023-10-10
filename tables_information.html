@@ -1,0 +1,2346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>ITU-base</title>
+</head>
+
+<body>
+  <div class="all_in_one">
+    <header class="header">
+      <div class="container">
+        <div class="header__logo">
+          <img class="header_logo-img" src="img/Logo.png" alt="">
+        </div>
+        <nav class="header__nav">
+          <a href="index.html">Главная</a>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <section>
+          <!--for demo wrap-->
+          <h1>Описание таблиц</h1>
+          <div class="tbl-header">
+            <table cellpadding="0" cellspacing="0" border="0">
+              <thead>
+                <tr>
+                  <th>Имя таблицы</th>
+                  <th>Краткое описание</th>
+                </tr>
+              </thead>
+            </table>
+          </div>
+          <div class="tbl-content">
+            <table cellpadding="0" cellspacing="0" border="0">
+              <tbody>
+                <tr class="click_this_row row_1">
+                  <td>Adm_info</td>
+                  <td>Условные обозначения, используемые для указания заявляющих администраций</td>
+                </tr>
+                <tr class="click_this_row row_2">
+                  <td>Ant_type</td>
+                  <td>Информация о типе антенны</td>
+                </tr>
+                <tr class="click_this_row row_3">
+                  <td>Notice</td>
+                  <td>Общая информация для представления (заявки)</td>
+                </tr>
+                <tr class="click_this_row row_4">
+                  <td>Ntc_memo</td>
+                  <td>Комментарии/замечания (только Резолюция 49 и API)</td>
+                </tr>
+                <tr class="click_this_row row_5">
+                  <td>Attch</td>
+                  <td>Информация, указанная в присоединении </td>
+                </tr>
+                <tr class="click_this_row row_6">
+                  <td>Sats_UNIQ</td>
+                  <td>Уникальные наименования спутников</td>
+                </tr>
+                <tr class="click_this_row row_7">
+                  <td>Sats</td>
+                  <td>Заявки для спутников (космических станций)</td>
+                </tr>
+                <tr class="click_this_row row_8">
+                  <td>Non_geo</td>
+                  <td>Негеостационарные спутники</td>
+                </tr>
+                <tr class="click_this_row row_9">
+                  <td>Geo</td>
+                  <td>Геостационарные спутники </td>
+                </tr>
+                <tr class="click_this_row row_10">
+                  <td>Strap</td>
+                  <td>Связь между лучами/частотами на линиях вверх и вниз</td>
+                </tr>
+                <tr class="click_this_row row_11">
+                  <td>E_stn_Uniq</td>
+                  <td>Уникальные наземные станции </td>
+                </tr>
+                <tr class="click_this_row row_12">
+                  <td>E_stn</td>
+                  <td>Заявки для наземных станций </td>
+                </tr>
+                <tr class="click_this_row row_13">
+                  <td>Ngma</td>
+                  <td>Шум в линии/усиление передачи для одной или нескольких полос </td>
+                </tr>
+                <tr class="click_this_row row_14">
+                  <td>S_beam</td>
+                  <td>Лучи спутниковых антенн </td>
+                </tr>
+                <tr class="click_this_row row_15">
+                  <td>Hor_elev</td>
+                  <td>Диаграмма угла места горизонта </td>
+                </tr>
+                <tr class="click_this_row row_16">
+                  <td>E_ant</td>
+                  <td>Антенны наземных станций </td>
+                </tr>
+                <tr class="click_this_row row_17">
+                  <td>Grp</td>
+                  <td>Общие данные для групп присвоенных частот </td>
+                </tr>
+                <tr class="click_this_row row_18">
+                  <td>Assgn</td>
+                  <td>Присвоенные частоты </td>
+                </tr>
+                <tr class="click_this_row row_19">
+                  <td>Freq</td>
+                  <td>Частоты </td>
+                </tr>
+                <tr class="click_this_row row_20">
+                  <td>Emiss</td>
+                  <td>Излучение </td>
+                </tr>
+                <tr class="click_this_row row_21">
+                  <td>Srv_cls</td>
+                  <td>Характер службы и класс станции для группы частотных присвоений </td>
+                </tr>
+                <tr class="click_this_row row_22">
+                  <td>Srv_area</td>
+                  <td>Service area </td>
+                </tr>
+                <tr class="click_this_row row_23">
+                  <td>S_as_stn</td>
+                  <td>Взаимодействующие космические станции </td>
+                </tr>
+                <tr class="click_this_row row_24">
+                  <td>E_as_stn</td>
+                  <td>Взаимодействующие земные станции </td>
+                </tr>
+                <tr class="click_this_row row_25">
+                  <td>Orbit</td>
+                  <td>Орбитальные плоскости негеостационарных спутников </td>
+                </tr>
+                <tr class="click_this_row row_26">
+                  <td>Phase</td>
+                  <td>Начальные фазовые углы негеостационарных спутников в орбитальной плоскости </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_copy">
+          <a href="#" class="phone">8-800-225-35-35</a>/<a href="#" class="e-mail">info@anc.space</a>
+        </div>
+        <div class="footer_img_cont">
+          <img src="img/Logo_circle.png" alt="" class="footer_img">
+        </div>
+        <div class="footer_2nd_part">
+          тут хз, может адрес
+        </div>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+
+
+  <!-- ТУТ НАЧИНАЮТСЯ МОДАЛЬНЫЕ ОКНА ДЛЯ ТАБЛИЧЕК -->
+
+  <div class="modal_1 close" id="modal_1">
+    <div class="modal__inner_1">
+      <div class="slide_information">
+        <h1>Adm_info</h1>
+        <div class="table-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th>Имя столбца</th>
+                <th>Краткое описание содержимого</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="table-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              <tr>
+                <td>ADM</td>
+                <td>Обозначение заявляющей администрации </td>
+              </tr>
+              <tr>
+                <td>LANGUAGE </td>
+                <td>обозначение языка</td>
+              </tr>
+              <tr>
+                <td>ADM_NAME</td>
+                <td>Название администрации (Государство ? Член МСЭ)</td>
+              </tr>
+              <tr>
+                <td>INTORGORSTATENUM</td>
+                <td>ссылка на таблицу государств и организаций международного уровня</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ant_type -->
+
+  <div class="modal_2 close" id="modal_2">
+    <div class="modal__inner_2">
+      <div class="slide_information">
+        <h1>Ant_type</h1>
+        <div class="table-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th>Имя столбца</th>
+                <th>Краткое описание содержимого</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="table-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              <tr>
+                <td>PATTERN_ID</td>
+                <td>уникальный идентификатор диаграммы направленности антенны </td>
+              </tr>
+              <tr>
+                <td>F_ANT_TYPE </td>
+                <td>символ, указывающий тип диаграммы направленности антенны: E - земная,
+                  S - космическая, A- взаимодействующая земная, R-radioastronomy, P-plan space, T-plan test point
+                </td>
+              </tr>
+              <tr>
+                <td>F_SUB_TYPE</td>
+                <td>код, указывающий, что диаграмма направленности антенны действительна для определенных типов
+                  заявки или иных состояний: B-план РСС, C-смешанная, F-план ФСС, O-устаревшая, W-отозванная </td>
+              </tr>
+              <tr>
+                <td>EMI_RCP</td>
+                <td>код, указывающий луч либо как передающий [E], либо как приемный [R] </td>
+              </tr>
+              <tr>
+                <td>PATTERN</td>
+                <td>диаграмма направленности антенны, указанная с помощью ссылки на соответствующую рекомендацию МСЭ-R
+                </td>
+              </tr>
+              <tr>
+                <td>COEFA </td>
+                <td>коэффициент А для нестандартной антенны</td>
+              </tr>
+              <tr>
+                <td>COEFB</td>
+                <td>коэффициент B для нестандартной антенны</td>
+              </tr>
+              <tr>
+                <td>COEFC</td>
+                <td>коэффициент C для нестандартной антенны</td>
+              </tr>
+              <tr>
+                <td>COEFD</td>
+                <td>коэффициент D для нестандартной антенны</td>
+              </tr>
+              <tr>
+                <td>PHI1</td>
+                <td>коэффициент PHI1 для нестандартной антенны </td>
+              </tr>
+              <tr>
+                <td>F_ANT_NEW</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>APL_NAME </td>
+                <td>название для этой диаграммы в списке литературы по диаграммам направленности антенн </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Notice -->
+
+  <div class="modal_3 close" id="modal_3">
+    <div class="modal__inner_3">
+      <div class="slide_information">
+        <h1>Notice</h1>
+        <div class="table-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th>Имя столбца</th>
+                <th>Краткое описание содержимого</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="table-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              <tr>
+                <td>NTC_ID </td>
+                <td>опознавательный номер заявки </td>
+              </tr>
+              <tr>
+                <td>NTC_TYPE </td>
+                <td>код, указывающий, относится ли заявка к геостационарному спутнику [G],
+                  негеостационарному спутнику [N], специфической земной станции [S] или типичной земной
+                  станции [T] or radio astronomy station [R] </td>
+              </tr>
+              <tr>
+                <td>D_ADM</td>
+                <td>дата отправки заявки, указываемая заявляющей администрацией </td>
+              </tr>
+              <tr>
+                <td>PROV </td>
+                <td>положение РР (RR), согласно которому представляется данная заявка </td>
+              </tr>
+              <tr>
+                <td>ACT_CODE </td>
+                <td>код, указывающий действие, которое следует предпринять по данному объекту </td>
+              </tr>
+              <tr>
+                <td>ADM0 </td>
+                <td>обозначение страны заявляющей администрации (указанное в заявке) </td>
+              </tr>
+              <tr>
+                <td>ADM</td>
+                <td>обозначение страны заявляющей администрации (ссылка на adm_info) </td>
+              </tr>
+              <tr>
+                <td>NTWK_ORG </td>
+                <td>обозначение организации, эксплуатирующей региональные или международные
+                  спутниковые сети (таблица 2 Предисловия к Международному списку частот) </td>
+              </tr>
+              <tr>
+                <td>TGT_NTC_ID </td>
+                <td>опознаватель заявки, подлежащей изменению или исключению </td>
+              </tr>
+              <tr>
+                <td>D_RCV</td>
+                <td>дата получения заявки </td>
+              </tr>
+              <tr>
+                <td>WIC_PART</td>
+                <td>часть WIC/ИФИК, в котором последний раз публиковалась заявка </td>
+              </tr>
+              <tr>
+                <td>WIC_NO </td>
+                <td>номер WIC/ИФИК, в котором последний раз публиковалась заявка </td>
+              </tr>
+              <tr>
+                <td>D_WIC </td>
+                <td>дата последней публикации заявки в WIC/ИФИК </td>
+              </tr>
+              <tr>
+                <td>D_UPD </td>
+                <td>дата обновления заявки в СКР - SNS (Master Register and Requests for Coordination) </td>
+              </tr>
+              <tr>
+                <td>F_INT_EXT</td>
+                <td>код, указывающий, относится ли заявка к работе внутри [I] или вне [E] страны </td>
+              </tr>
+              <tr>
+                <td>NTF_RSN </td>
+                <td>код, указывающий, что заявка была представлена согласно п.1488 РР [N], п.1060 РР [C],
+                  п.1107 РР [D], п.9.1 [A], п.9.6 [C], п.9.7А [D], п.9.17 [D], п.11.2 [N], п.11.12 [N],
+                  ПР30/30А - Статьи 2А и 4 [В], ПР30/30А - Статья 5 [N], ПР30В - Статьи 6 и 7 [Р], ПР30В
+                  - Статья 8 [N] или Рез.49 [U] </td>
+              </tr>
+              <tr>
+                <td>F_SPL </td>
+                <td>код, указывающий, была ли заявка разделена </td>
+              </tr>
+              <tr>
+                <td>SPL_NTC_ID </td>
+                <td>опознаватель заявки, образованной в результате разделения (в случае Резолюции 49: r49ntc_id)</td>
+              </tr>
+              <tr>
+                <td>PLAN_ID </td>
+                <td>опознаватель плана </td>
+              </tr>
+              <tr>
+                <td>NTWK_PACK</td>
+                <td>опознаватель группы сетей </td>
+              </tr>
+              <tr>
+                <td>F_ADM_PROXI</td>
+                <td>символ, указывающий, что администрация представляет заявку от имени других администраций </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Ntc_memo -->
+
+  <div class="modal_4 close" id="modal_4">
+    <div class="modal__inner_4">
+      <div class="slide_information">
+        <h1>Ntc_memo</h1>
+        <div class="table-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th>Имя столбца</th>
+                <th>Краткое описание содержимого</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="table-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              <tr>
+                <td>NTC_ID </td>
+                <td>опознавательный номер заявки </td>
+              </tr>
+              <tr>
+                <td>ADM_REMARK </td>
+                <td>замечания, сделанные администрацией</td>
+              </tr>
+              <tr>
+                <td>BR_COMMENT </td>
+                <td>Замечания БР </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Attch -->
+
+  <div class="modal_5 close" id="modal_5">
+    <div class="modal__inner_5">
+      <div class="slide_information">
+        <h1>Attch</h1>
+        <div class="table-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th>Имя столбца</th>
+                <th>Краткое описание содержимого</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="table-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              <tr>
+                <td>NTC_ID </td>
+                <td>опознавательный номер заявки </td>
+              </tr>
+              <tr>
+                <td>ATTCH_NO </td>
+                <td>идентификатор (номер) присоединения </td>
+              </tr>
+              <tr>
+                <td>ATTCH_TYPE</td>
+                <td>код, указывающий, представлено ли присоединение
+                  в бумажном [P] или электронном [E] формате, GIMS [G] or file [F] format </td>
+              </tr>
+              <tr>
+                <td>FILE_NAME </td>
+                <td>название файла в случае, когда присоединение представлено в электронном формате (G or F) </td>
+              </tr>
+              <tr>
+                <td>TEXT_INFO </td>
+                <td>текстовая информация </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sats_UNIQ -->
+
+  <div class="modal_6 close" id="modal_6">
+    <div class="modal__inner_6">
+      <div class="slide_information">
+        <h1>Sats_UNIQ</h1>
+        <div class="table-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th>Имя столбца</th>
+                <th>Краткое описание содержимого</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="table-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              <tr>
+                <td>ID</td>
+                <td>unique identifier</td>
+              </tr>
+              <tr>
+                <td>SAT_TYPE</td>
+                <td>Тип спутника: геостационарный [G], негеостационарный [N]</td>
+              </tr>
+              <tr>
+                <td>SAT_NAME</td>
+                <td>Наименование спутника</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sats -->
+
+  <div class="modal_7 close" id="modal_7">
+    <div class="modal__inner_7">
+      <div class="slide_information">
+        <h1>Sats</h1>
+        <div class="table-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th>Имя столбца</th>
+                <th>Краткое описание содержимого</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="table-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              <tr>
+                <td>ID</td>
+                <td>unique identifier</td>
+              </tr>
+              <tr>
+                <td>SAT_TYPE</td>
+                <td>Тип спутника: геостационарный [G], негеостационарный [N]</td>
+              </tr>
+              <tr>
+                <td>SAT_NAME</td>
+                <td>Наименование спутника</td>
+              </tr>
+              <tr>
+                <td>NTC_ID </td>
+                <td>Уникальный идентификатор заявки </td>
+              </tr>
+              <tr>
+                <td>ITUSATUNIQNUM</td>
+                <td>ссылка на уникальное наименование спутника (Sats_Uniq) </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Non_geo -->
+
+  <div class="modal_8 close" id="modal_8">
+    <div class="modal__inner_8">
+      <div class="slide_information">
+        <h1>Non_geo</h1>
+        <div class="table-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th>Имя столбца</th>
+                <th>Краткое описание содержимого</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="table-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              <tr>
+                <td>SATNUM </td>
+                <td>Номер заявки - ссылка на запись в таблице Sats(ID) </td>
+              </tr>
+              <tr>
+                <td>REF_BODY</td>
+                <td>код эталонного тела, вблизи которого проходит орбита спутника: T ? для Земли,
+                  L ? для Луны, М ? для Марса, J ? для Юпитера, V ? для Венеры, S ? для Солнца,
+                  D ? для глубокого космоса </td>
+              </tr>
+              <tr>
+                <td>NBR_SAT_NH</td>
+                <td>максимальное число космических станций негеостационарной спутниковой системы,
+                  ведущих одновременную передачу на совпадающей частоте в Северном полушарии </td>
+              </tr>
+              <tr>
+                <td>NBR_SAT_SH</td>
+                <td>максимальное число космических станций негеостационарной спутниковой системы,
+                  ведущих одновременную передачу на совпадающей частоте в Южном полушарии </td>
+              </tr>
+              <tr>
+                <td>NBR_PLANE</td>
+                <td>число плоскостей негеостационарной орбиты </td>
+              </tr>
+              <tr>
+                <td>NBR_SAT_TD</td>
+                <td>максимальное число отслеживаемых негеостационарных спутников, принимающих
+                  сигналы одновременно на совпадающей частоте </td>
+              </tr>
+              <tr>
+                <td>DENSITY</td>
+                <td>среднее число взаимодействующих земных станций, ведущих передачи на
+                  перекрывающихся частотах, на кв.км в пределах одной ячейки </td>
+              </tr>
+              <tr>
+                <td>AVG_DIST </td>
+                <td>среднее расстояние в километрах между ячейками с одинаковыми частотами </td>
+              </tr>
+              <tr>
+                <td>F_X_ZONE</td>
+                <td>символ, указывающий тип зоны; является ли угол зоны исключения углом альфа (Y) или углом X (N)
+                </td>
+              </tr>
+              <tr>
+                <td>X_ZONE </td>
+                <td>ширина зоны исключения в градусах</td>
+              </tr>
+              <tr>
+                <td>F_EPFD </td>
+                <td>код, указывающий на обязательство относительно соответствия дополнительным
+                  эксплуатационным уровням э.п.п.м. (downlink) </td>
+              </tr>
+              <tr>
+                <td>F_ACTIVE</td>
+                <td>код, указывающий, является ли станция активной [A] или неактивной [I],
+                  т. е. логически подавленной </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Geo -->
+
+  <div class="modal_9 close" id="modal_9">
+    <div class="modal__inner_9">
+      <div class="slide_information">
+        <h1>Geo</h1>
+        <div class="table-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th>Имя столбца</th>
+                <th>Краткое описание содержимого</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="table-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              <tr>
+                <td>SATNUM </td>
+                <td>Номер заявки - ссылка на запись в таблице Sats(ID) </td>
+              </tr>
+              <tr>
+                <td>LONG_NOM</td>
+                <td>номинальная долгота космической станции, указываемая с "?" для з. д. и "+" для в. д. </td>
+              </tr>
+              <tr>
+                <td>TOL_EAST </td>
+                <td>величина, указывающая запланированное допустимое отклонение восточной
+                  долготы от номинальной долготы </td>
+              </tr>
+              <tr>
+                <td>TOL_WEST </td>
+                <td>величина, указывающая запланированное допустимое отклонение западной
+                  долготы от номинальной долготы </td>
+              </tr>
+              <tr>
+                <td>INCLIN_EXC </td>
+                <td>отклонение по наклонению </td>
+              </tr>
+              <tr>
+                <td>SRV_ARC_FR </td>
+                <td>most westerly limit of the service arc of the geostationary satellite
+                  orbit (в версии 8 не обновляется) </td>
+              </tr>
+              <tr>
+                <td>SRV_EW_FR </td>
+                <td>direction indicator East [E], West [W] (в версии 8 не обновляется)</td>
+              </tr>
+              <tr>
+                <td>SRV_ARC_TO </td>
+                <td>most easterly limit of the service arc of the geostationary satellite orbit
+                  (в версии 8 не обновляется)</td>
+              </tr>
+              <tr>
+                <td>SRV_EW_TO </td>
+                <td>direction indicator East [E], West [W] (в версии 8 не обновляется) </td>
+              </tr>
+              <tr>
+                <td>F_ACTIVE</td>
+                <td>код, указывающий, является ли станция активной [A] или неактивной [I],
+                  т. е. логически подавленной</td>
+              </tr>
+              <tr>
+                <td>F_OFF_AXIS</td>
+                <td>код, указывающий на обязательство относительно соответствия ограничениям мощности внеосевого
+                  излучения </td>
+              </tr>
+              <tr>
+                <td>F_PFD_LIM</td>
+                <td>код, указывающий на обязательство относительно соответствия ограничениям
+                  плотности потока мощности в расчете на спутник ?129 дБ(Вт/(м2·МГц) </td>
+              </tr>
+              <tr>
+                <td>LONG_ORIG</td>
+                <td>исходная номинальная долгота космической станции, указываемая с "?" для з.д. и "+" для в.д. </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Strap -->
+
+  <div class="modal_10 close" id="modal_10">
+    <div class="modal__inner_10">
+      <div class="slide_information">
+        <h1>Strap</h1>
+        <div class="table-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th>Имя столбца</th>
+                <th>Краткое описание содержимого</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="table-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              <tr>
+                <td>ID </td>
+                <td>уникальный идентификатор записи </td>
+              </tr>
+              <tr>
+                <td>SATNUM </td>
+                <td>ссылка на Geo(SatNum)</td>
+              </tr>
+              <tr>
+                <td>STRP_ID </td>
+                <td>порядковый номер связки </td>
+              </tr>
+              <tr>
+                <td>ACT_CODE</td>
+                <td>код, указывающий действие, которое следует предпринять по данному объекту</td>
+              </tr>
+              <tr>
+                <td>BEAM_UP</td>
+                <td>обозначение луча спутниковой приемной антенны, связанного с частотой на линии вверх </td>
+              </tr>
+              <tr>
+                <td>BEAM_DN</td>
+                <td>обозначение луча спутниковой передающей антенны, связанного с частотой на линии вниз </td>
+              </tr>
+              <tr>
+                <td>FREQ_SYMUP</td>
+                <td>обозначение, указывающее килогерцы [К], мегагерцы [М ] или гигагерцы [Г]</td>
+              </tr>
+              <tr>
+                <td>FREQ_UP</td>
+                <td>присвоенная частота на линии вверх, образующая часть полосы </td>
+              </tr>
+              <tr>
+                <td>FREQ_SYMDN </td>
+                <td>обозначение, указывающее килогерцы [К], мегагерцы [М ] или гигагерцы [Г] </td>
+              </tr>
+              <tr>
+                <td>FREQ_DN</td>
+                <td>присвоенная частота на линии вниз, образующая часть связки </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- E_stn_Uniq -->
+
+  <div class="modal_11 close" id="modal_11">
+    <div class="modal__inner_11">
+      <div class="slide_information">
+        <h1>E_stn_Uniq</h1>
+        <div class="table-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th>Имя столбца</th>
+                <th>Краткое описание содержимого</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="table-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              <tr>
+                <td>ID </td>
+                <td>Уникальный идентификатор наземной станции</td>
+              </tr>
+              <tr>
+                <td>STN_NAME </td>
+                <td>название наземной станции</td>
+              </tr>
+              <tr>
+                <td>CTRY </td>
+                <td>обозначение страны или географического района, где находится наземная станция </td>
+              </tr>
+              <tr>
+                <td>LONG_DEG</td>
+                <td>градусы долготной координаты станции, выраженной в градусах, минутах и секундах </td>
+              </tr>
+              <tr>
+                <td>LONG_EW</td>
+                <td>указатель направления долготы: в. д. [E] или з. д. [W] </td>
+              </tr>
+              <tr>
+                <td>LONG_MIN</td>
+                <td>минуты долготной координаты станции, выраженной в градусах, минутах и секундах </td>
+              </tr>
+              <tr>
+                <td>LONG_SEC</td>
+                <td>секунды долготной координаты станции, выраженной в градусах, минутах и секундах </td>
+              </tr>
+              <tr>
+                <td>LAT_DEG</td>
+                <td>градусы широтной координаты станции, выраженной в градусах, минутах и секундах </td>
+              </tr>
+              <tr>
+                <td>LAT_NS </td>
+                <td>указатель направления широты: с. ш. [N] или ю. ш. [S] </td>
+              </tr>
+              <tr>
+                <td>LAT_MIN</td>
+                <td>минуты широтной координаты станции, выраженной в градусах, минутах и секундах </td>
+              </tr>
+              <tr>
+                <td>LAT_SEC</td>
+                <td>секунды широтной координаты станции, выраженной в градусах, минутах и секундах </td>
+              </tr>
+              <tr>
+                <td>LONG_DEC</td>
+                <td>долгота в градусах с четырьмя десятичными знаками </td>
+              </tr>
+              <tr>
+                <td>LAT_DEC </td>
+                <td>широта в градусах с четырьмя десятичными знаками</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- E_stn -->
+
+  <div class="modal_12 close" id="modal_12">
+    <div class="modal__inner_12">
+      <div class="slide_information">
+        <h1>E_stn</h1>
+        <div class="table-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th>Имя столбца</th>
+                <th>Краткое описание содержимого</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="table-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              <tr>
+                <td>ID </td>
+                <td>Уникальный идентификатор записи </td>
+              </tr>
+              <tr>
+                <td>NTC_ID </td>
+                <td>Уникальный идентификато заявки </td>
+              </tr>
+              <tr>
+                <td>STN_NAME </td>
+                <td>название наземной станции </td>
+              </tr>
+              <tr>
+                <td>E_STN_UNIQNUM </td>
+                <td>ссылка на идентификатор уникальной наземной станции E_stn_uniq(ID) </td>
+              </tr>
+              <tr>
+                <td>CTRY </td>
+                <td>обозначение страны или географического района, где находится наземная станция </td>
+              </tr>
+              <tr>
+                <td>SAT_NAME </td>
+                <td>название взаимодействующей космической станции </td>
+              </tr>
+              <tr>
+                <td>LONG_NOM</td>
+                <td>номинальная долгота взаимодействующей космической станции, указываемая
+                  как "?" для з. д. и "+" для в. д. </td>
+              </tr>
+              <tr>
+                <td>ATTCH_HOR </td>
+                <td>номер присоединения для диаграммы угла места горизонта наземной станции </td>
+              </tr>
+              <tr>
+                <td>ELEV_MIN </td>
+                <td>запланированный минимальный угол места оси основного луча антенны, в градусах от
+                  горизонтальной плоскости </td>
+              </tr>
+              <tr>
+                <td>ELEV_MAX </td>
+                <td>запланированный максимальный угол места оси основного луча антенны, в градусах от
+                  горизонтальной плоскости </td>
+              </tr>
+              <tr>
+                <td>AZM_FR </td>
+                <td>начальное предельное значение, в градусах по часовой стрелке от истинного севера,
+                  для азимутального сектора </td>
+              </tr>
+              <tr>
+                <td>AZM_TO </td>
+                <td>конечное предельное значение, в градусах по часовой стрелке от истинного севера,
+                  для азимутального сектора </td>
+              </tr>
+              <tr>
+                <td>ANT_ALT</td>
+                <td>высота антенны наземной станции </td>
+              </tr>
+              <tr>
+                <td>F_ACTIVE</td>
+                <td>код, указывающий, является ли станция активной [A] или неактивной [I],
+                  т. е. логически подавленной </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ngma -->
+
+  <div class="modal_13 close" id="modal_13">
+    <div class="modal__inner_13">
+      <div class="slide_information">
+        <h1>Ngma</h1>
+        <div class="table-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th>Имя столбца</th>
+                <th>Краткое описание содержимого</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="table-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              <tr>
+                <td>ID </td>
+                <td>Уникальный идентификатор записи </td>
+              </tr>
+              <tr>
+                <td>SATNUM </td>
+                <td>ссылка на заявку для геостационарного спутника Geo(ID)</td>
+              </tr>
+              <tr>
+                <td>NGMA_ID </td>
+                <td>опознаватель для заданного набора значений эквивалентной шумовой температуры
+                  спутниковых линий (ESLNT) и усиления передачи (гамма) </td>
+              </tr>
+              <tr>
+                <td>ACT_CODE</td>
+                <td>код, указывающий действие, которое следует предпринять по данному объекту </td>
+              </tr>
+              <tr>
+                <td>STRP_ID_FR</td>
+                <td>нижний предел диапазона порядковых номеров связок </td>
+              </tr>
+              <tr>
+                <td>STRP_ID_TO</td>
+                <td>верхний предел диапазона порядковых номеров связок </td>
+              </tr>
+              <tr>
+                <td>NOISE_T_LO </td>
+                <td>наименьшее значение эквивалентной шумовой температуры спутниковых линий
+                  (ESLNT), связанное с данной связкой </td>
+              </tr>
+              <tr>
+                <td>GAIN_AS_LO</td>
+                <td>величина усиления передачи (гамма), связанная с вышеуказанным значением ESLNT</td>
+              </tr>
+              <tr>
+                <td>NOISE_T_HR </td>
+                <td>значение эквивалентной шумовой температуры спутниковой линии (ESLNT) для
+                  наибольшего отношения усиления передачи к значению ESLNT, связанному с данной связкой </td>
+              </tr>
+              <tr>
+                <td>GAIN_AS_HR</td>
+                <td>величина усиления передачи (гамма), связанная с вышеуказанным значением ESLNT </td>
+              </tr>
+              <tr>
+                <td>STN_NAME </td>
+                <td>название приемной наземной станции </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- S_beam -->
+
+  <div class="modal_14 close" id="modal_14">
+    <div class="modal__inner_14">
+      <div class="slide_information">
+        <h1>S_beam</h1>
+        <div class="table-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th>Имя столбца</th>
+                <th>Краткое описание содержимого</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="table-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              <tr>
+                <td>ID </td>
+                <td>Уникальный идентификатор записи </td>
+              </tr>
+              <tr>
+                <td>SATNUM </td>
+                <td>ссылка на заявку для геостационарного спутника Geo(ID)</td>
+              </tr>
+              <tr>
+                <td>EMI_RCP </td>
+                <td>код, указывающий луч, либо как передающий [E], либо как приемный [R] </td>
+              </tr>
+              <tr>
+                <td>BEAM_NAME </td>
+                <td>обозначение луча спутниковой антенны </td>
+              </tr>
+              <tr>
+                <td>BEAM_OLD</td>
+                <td>предыдущее обозначение луча спутниковой антенны </td>
+              </tr>
+              <tr>
+                <td>F_STEER </td>
+                <td>символ, указывающий, является ли луч управляемым (см. п.1.191)
+                  или с изменяемой конфигурацией </td>
+              </tr>
+              <tr>
+                <td>GAIN </td>
+                <td>максимальное изотропное усиление антенны, выраженное в дБ;
+                  усиление при совпадающей поляризации для планов </td>
+              </tr>
+              <tr>
+                <td>GAIN_X </td>
+                <td>кроссполярное усиление (только для лучей с профилированной диаграммой)</td>
+              </tr>
+              <tr>
+                <td>BEAMLET </td>
+                <td>составляющий луч </td>
+              </tr>
+              <tr>
+                <td>BORE_LONG</td>
+                <td>долготная координата точки прицеливания спутниковой антенны </td>
+              </tr>
+              <tr>
+                <td>BORE_LAT</td>
+                <td>широтная координата точки прицеливания спутниковой антенны </td>
+              </tr>
+              <tr>
+                <td>MAJ_AXIS </td>
+                <td>большая ось проекции луча спутниковой антенны </td>
+              </tr>
+              <tr>
+                <td>MIN_AXIS </td>
+                <td>малая ось проекции луча спутниковой антенны </td>
+              </tr>
+              <tr>
+                <td>ORIENT </td>
+                <td>ориентация луча спутниковой антенны </td>
+              </tr>
+              <tr>
+                <td>PNT_ACC</td>
+                <td>точность наведения антенны, в градусах </td>
+              </tr>
+              <tr>
+                <td>ROT_ACC </td>
+                <td>точность поворота луча спутниковой антенны </td>
+              </tr>
+              <tr>
+                <td>PATTERN_ID </td>
+                <td>опознавательный номер диаграммы кополярной направленности антенны
+                  в справочной таблице ant_type </td>
+              </tr>
+              <tr>
+                <td>PATTERN_ID_X</td>
+                <td>опознавательный номер диаграммы кроссполярной направленности
+                  антенны в справочной таблице ant_type </td>
+              </tr>
+              <tr>
+                <td>FREQ_MIN </td>
+                <td>минимальная частота в МГц (присвоенная частота - половина ширины полосы)
+                  (всех частот для этого луча) </td>
+              </tr>
+              <tr>
+                <td>FREQ_MAX</td>
+                <td>максимальная частота в МГц (присвоенная частота + половина ширины полосы)
+                  (всех частот для этого луча) </td>
+              </tr>
+              <tr>
+                <td>SR_TYPE </td>
+                <td>код, указывающий действие, которое следует предпринять по данному объекту </td>
+              </tr>
+              <tr>
+                <td>ACT_CODE</td>
+                <td>величина усиления передачи (гамма), связанная с вышеуказанным значением ESLNT</td>
+              </tr>
+              <tr>
+                <td>ANG_ALPHA </td>
+                <td>ориентация луча спутниковой антенны</td>
+              </tr>
+              <tr>
+                <td>ANG_BETA</td>
+                <td>ориентация луча спутниковой антенны </td>
+              </tr>
+              <tr>
+                <td>ATTCH_E</td>
+                <td>номер присоединения для диаграммы кополярной направленности антенны </td>
+              </tr>
+              <tr>
+                <td>ATTCH_E_X</td>
+                <td>номер присоединения для диаграммы кроссполярной направленности антенны </td>
+              </tr>
+              <tr>
+                <td>ATTCH_ELEV</td>
+                <td>номер присоединения для усиления в зависимости от диаграммы угла места </td>
+              </tr>
+              <tr>
+                <td>ATTCH_GAIN </td>
+                <td>номер присоединения для диаграммы контура усиления</td>
+              </tr>
+              <tr>
+                <td>ATTCH_LOSS</td>
+                <td>номер присоединения для данных о потерях распространения </td>
+              </tr>
+              <tr>
+                <td>DIAG_ORB_E</td>
+                <td>number of the attachment for diagram showing antenna gain versus geostationary orbit </td>
+              </tr>
+              <tr>
+                <td>PWR_MAX_4K</td>
+                <td>максимальная э.и.и.м. на 4 кГц </td>
+              </tr>
+              <tr>
+                <td>PWR_AVG_4K</td>
+                <td>средняя э.и.и.м. на 4 кГц </td>
+              </tr>
+              <tr>
+                <td>PWR_MAX_1M</td>
+                <td>максимальная э.и.и.м. на 1 МГц </td>
+              </tr>
+              <tr>
+                <td>PWR_AVG_1M</td>
+                <td>средняя э.и.и.м. на 1 МГц </td>
+              </tr>
+              <tr>
+                <td>PROT_RATIO</td>
+                <td>минимальное приемлемое суммарное отношение C/I, если защитное отношение меньше 26 дБ или 23 дБ для
+                  представлений, полученных Бюро на 5 июля 2003 года </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hor_elev -->
+
+  <div class="modal_15 close" id="modal_15">
+    <div class="modal__inner_15">
+      <div class="slide_information">
+        <h1>Hor_elev</h1>
+        <div class="table-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th>Имя столбца</th>
+                <th>Краткое описание содержимого</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="table-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              <tr>
+                <td>ID </td>
+                <td>Уникальный идентификатор записи </td>
+              </tr>
+              <tr>
+                <td>ITUE_STNNUM</td>
+                <td>ссылка на E_stn(ID)</td>
+              </tr>
+              <tr>
+                <td>AZM </td>
+                <td>азимут, измеренный в градусах по часовой
+                  стрелке от истинного севера, для которого угол места горизонта указан в пункте данных elev_ang </td>
+              </tr>
+              <tr>
+                <td>ELEV_ANG</td>
+                <td>угол места горизонта в градусах для азимута, указанного в пункте данных azm </td>
+              </tr>
+              <tr>
+                <td>HOR_DIST</td>
+                <td>расстояние в км от земной станции до горизонта для азимута, указанного в пункте данных azm </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- E_ant -->
+
+  <div class="modal_16 close" id="modal_16">
+    <div class="modal__inner_16">
+      <div class="slide_information">
+        <h1>E_ant</h1>
+        <div class="table-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th>Имя столбца</th>
+                <th>Краткое описание содержимого</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="table-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              <tr>
+                <td>ID </td>
+                <td>Уникальный идентификатор записи </td>
+              </tr>
+              <tr>
+                <td>E_STNNUM</td>
+                <td>сылка на наземную станцию ITUe_stn(ID)</td>
+              </tr>
+              <tr>
+                <td>EMI_RCP</td>
+                <td>cкод, указывающий луч либо как передающий [E], либо как приемный [R]</td>
+              </tr>
+              <tr>
+                <td>BEAM_NAME</td>
+                <td>обозначение луча спутниковой антенны </td>
+              </tr>
+              <tr>
+                <td>ACT_CODE</td>
+                <td>код, указывающий действие, которое следует предпринять по данному объекту </td>
+              </tr>
+              <tr>
+                <td>BEAM_OLD</td>
+                <td>предыдущее обозначение луча спутниковой антенны </td>
+              </tr>
+              <tr>
+                <td>BMWDTH </td>
+                <td>ширина луча антенны наземной станции</td>
+              </tr>
+              <tr>
+                <td>ATTCH_E</td>
+                <td>номер присоединения для диаграммы кополярной направленности антенны </td>
+              </tr>
+              <tr>
+                <td>ATTCH_E_X </td>
+                <td>номер присоединения для диаграммы кроссполярной направленности антенны </td>
+              </tr>
+              <tr>
+                <td>GAIN </td>
+                <td>максимальное изотропное усиление антенны наземной станции </td>
+              </tr>
+              <tr>
+                <td>PATTERN_ID</td>
+                <td>опознавательный номер диаграммы кополярной направленности антенны в столбце
+                  ant_type справочной таблицы </td>
+              </tr>
+              <tr>
+                <td>PATTERN_ID_X</td>
+                <td>опознавательный номер диаграммы кроссполярной направленности антенны в столбце
+                  ant_type справочной таблицы </td>
+              </tr>
+              <tr>
+                <td>ANT_DIAM </td>
+                <td>диаметр антенны (метры): in the case of FSS earth stations operating in the frequency band
+                  13.75-14.0 GHz </td>
+              </tr>
+              <tr>
+                <td>DGSO</td>
+                <td>Размер антенны, согласованный с геостационарной дугой (DGSO) (м)</td>
+              </tr>
+              <tr>
+                <td>ATTCH_CRDN</td>
+                <td>номер присоединения для диаграммы координационной зоны земной станции </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Grp -->
+
+  <div class="modal_17 close" id="modal_17">
+    <div class="modal__inner_17">
+      <div class="slide_information">
+        <h1>Grp</h1>
+        <div class="table-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th>Имя столбца</th>
+                <th>Краткое описание содержимого</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="table-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              <tr>
+                <td>GRP_ID</td>
+                <td>опознавательный номер группы </td>
+              </tr>
+              <tr>
+                <td>E_ANTNUM</td>
+                <td>ссылка на антенну наземной станции ITUE_ant(ID) </td>
+              </tr>
+              <tr>
+                <td>S_BEAMNUM</td>
+                <td>ссылка на луч спутниковой антенны ITUS_beam(ID)</td>
+              </tr>
+              <tr>
+                <td>EMI_RCP </td>
+                <td>код, указывающий луч либо как передающий [E], либо как приемный [R]</td>
+              </tr>
+              <tr>
+                <td>BEAM_NAME</td>
+                <td>обозначение луча спутниковой антенны</td>
+              </tr>
+              <tr>
+                <td>SR_TYPE </td>
+                <td>Символ, указывающий на тип датчика: A ? активный, P ? пассивный, where applicable</td>
+              </tr>
+              <tr>
+                <td>PAGE_NO</td>
+                <td>номер страницы бумажной формы заявки </td>
+              </tr>
+              <tr>
+                <td>ACT_CODE</td>
+                <td>код, указывающий действие, которое следует предпринять по данному объекту</td>
+              </tr>
+              <tr>
+                <td>ADM_RESP</td>
+                <td>Обозначение, указывающее ответственную администрацию, Таблица
+                  12A/12B Предисловия к Международному списку частот </td>
+              </tr>
+              <tr>
+                <td>BDWDTH</td>
+                <td>Ширина присвоенной полосы частот, выраженная в кГц, ЛИБО ширина полосы частот (в кГц),
+                  наблюдаемая радиоастрономической станцией, ЛИБО ширина шумовой полосы
+                  приемника (для активных датчиков)</td>
+              </tr>
+              <tr>
+                <td>D_INUSE </td>
+                <td>дата ввода в действие </td>
+              </tr>
+              <tr>
+                <td>NOISE_T </td>
+                <td>шумовая температура приемной системы или шумовая температура системы на выходе
+                  процессора сигналов (для активных датчиков)</td>
+              </tr>
+              <tr>
+                <td>OP_AGCY</td>
+                <td>номер эксплуатирующей организации, таблица п.12A/12В Предисловия к Международному списку частот
+                </td>
+              </tr>
+              <tr>
+                <td>POLAR_TYPE</td>
+                <td>обозначение, указывающее тип и направление поляризации, где это уместно (в случае круговой или
+                  эллиптической поляризации) </td>
+              </tr>
+              <tr>
+                <td>POLAR_ANG </td>
+                <td>в случае линейной поляризации величина угла (в градусах), измеренного против часовой стрелки в
+                  плоскости, перпендикулярной оси луча, от экваториальной плоскости до электрического вектора волны
+                </td>
+              </tr>
+              <tr>
+                <td>DIAG_AREA</td>
+                <td>(нет в V8) number of attachment for the service area diagram </td>
+              </tr>
+              <tr>
+                <td>DIAG_SPECT</td>
+                <td>(нет в V8) number of attachment for the spectrum mask diagram </td>
+              </tr>
+              <tr>
+                <td>PRD_VALID</td>
+                <td>период действия в годах </td>
+              </tr>
+              <tr>
+                <td>REMARK</td>
+                <td>обозначения, используемые согласно таблице п.13C </td>
+              </tr>
+              <tr>
+                <td>TGT_GRP_ID </td>
+                <td>опознавательный номер группы, подлежащей изменениям </td>
+              </tr>
+              <tr>
+                <td>PWR_MAX</td>
+                <td>максимальная общая пиковая мощность огибающей (дБВт) или максимальная суммарная
+                  мощность (дБВт), подаваемая на вход антенны </td>
+              </tr>
+              <tr>
+                <td>BDWDTH_AGGR</td>
+                <td>непрерывная полоса излучения спутникового ретранслятора или суммарная ширина
+                  полосы всех несущих (если применимо, на каждый ретранслятор), подаваемой на вход
+                  передающей антенны земной станции </td>
+              </tr>
+              <tr>
+                <td>F_TRP_BAND</td>
+                <td>указатель, показывающий, соответствует ли ширина полосы ретранслятора суммарной
+                  ширине полосы всех несущих (если применимо, на каждый ретранслятор), подаваемой
+                  на вход передающей антенны земной станции </td>
+              </tr>
+              <tr>
+                <td>ATTCH_MUX</td>
+                <td>(нет в V8) number of attachment for modulation and multiple access</td>
+              </tr>
+              <tr>
+                <td>AREA_NO</td>
+                <td>порядковый номер, связывающий диаграмму отдельной зоны обслуживания с группой </td>
+              </tr>
+              <tr>
+                <td>OBSERV_CLS</td>
+                <td>класс наблюдения (для радиоастрономии)</td>
+              </tr>
+              <tr>
+                <td>REG_OP_FR </td>
+                <td>начало регулярных часов приема, в UTC </td>
+              </tr>
+              <tr>
+                <td>REG_OP_TO</td>
+                <td>конец регулярных часов приема, в UTC </td>
+              </tr>
+              <tr>
+                <td>D_UPD</td>
+                <td>дата обновления списка присвоений в СКР (Справочный регистр и запросы на координацию) </td>
+              </tr>
+              <tr>
+                <td>ST_CUR</td>
+                <td>статус этой группы частотных присвоений </td>
+              </tr>
+              <tr>
+                <td>D_ST_CUR</td>
+                <td>дата перехода в это состояние для данной группы частотных присвоений </td>
+              </tr>
+              <tr>
+                <td>WIC_NO</td>
+                <td>номер WIC/ИФИК, в котором опубликован последний список присвоений </td>
+              </tr>
+              <tr>
+                <td>WIC_PART</td>
+                <td>часть WIC/ИФИК, в которой опубликован последний список присвоений </td>
+              </tr>
+              <tr>
+                <td>D_WIC</td>
+                <td>дата последней публикации списка присвоений в WIC/ИФИК </td>
+              </tr>
+              <tr>
+                <td>D_PROT_EFF</td>
+                <td>дата, начиная с которой учитывается список присвоений согласно положениям
+                  РР, в зависимости от случая (RR1061-1065 or RR1148-1154) </td>
+              </tr>
+              <tr>
+                <td>FDG_REG</td>
+                <td>заключения: соответствие Регламенту радиосвязи;
+                  таблица п.13A Предисловия к Международному списку частот (13A1) </td>
+              </tr>
+              <tr>
+                <td>FDG_PLAN</td>
+                <td>заключения: соответствие Плану или процедуре координации;
+                  таблица п.13А Предисловия к Международному списку частот (13А2) </td>
+              </tr>
+              <tr>
+                <td>FDG_TEX</td>
+                <td>заключения: результаты технической проверки; таблица п.13A
+                  Предисловия к Международному списку частот (13A3)</td>
+              </tr>
+              <tr>
+                <td>FDG_OBSERV</td>
+                <td>заключения: замечания, относящиеся к заключениям, внесенным в столбец 13A;
+                  таблица п.13B Предисловия к Международному списку частот (13B2) </td>
+              </tr>
+              <tr>
+                <td>SPL_GRP_ID</td>
+                <td>идентификатор разделенной группы </td>
+              </tr>
+              <tr>
+                <td>GRP_COMMENT </td>
+                <td>Замечания</td>
+              </tr>
+              <tr>
+                <td>AREA_NAME</td>
+                <td>(нет в V8) name of the service area </td>
+              </tr>
+              <tr>
+                <td>ATTCH_REG</td>
+                <td>(нет в V8) number of the attachment for the region affected</td>
+              </tr>
+              <tr>
+                <td>ELEV_MIN</td>
+                <td>минимальный угол места, при котором любая взаимодействующая земная станция
+                  может вести передачи в направлении негеостационарного спутника, или минимальный
+                  угол места, при котором радиоастрономическая станция проводит наблюдения
+                  с использованием монопараболической или интерферометрической со сверхбольшой базой
+                  (ИСББ) антенны</td>
+              </tr>
+              <tr>
+                <td>GSO_SEP</td>
+                <td>минимальный угол разноса между дугой геостационарной спутниковой орбиты и направлением
+                  основной оси луча взаимодействующей земной станции, при котором такая земная станция
+                  может вести передачи в направлении негеостационарного спутника </td>
+              </tr>
+              <tr>
+                <td>PROV</td>
+                <td>положение РР, согласно которому представлена данная группа </td>
+              </tr>
+              <tr>
+                <td>SRV_CODE </td>
+                <td>обобщенный код, указывающий тип космической службы для списка частотных присвоений группы </td>
+              </tr>
+              <tr>
+                <td>FREQ_MIN</td>
+                <td>минимальная частота в МГц (присвоенная частота ? половина ширины полосы) (для всех частот этой
+                  группы)</td>
+              </tr>
+              <tr>
+                <td>FREQ_MAX</td>
+                <td>максимальная частота в МГц (присвоенная частота + половина ширины полосы) (для всех частот этой
+                  группы) </td>
+              </tr>
+              <tr>
+                <td>F_NO_INTFR</td>
+                <td>код, указывающий на соответствие Статье 4.4 Регламента радиосвязи </td>
+              </tr>
+              <tr>
+                <td>PFD_PK_7G </td>
+                <td>рассчитанное значение пика плотности потока мощности, создаваемой в пределах наклонения
+                  геостационарной
+                  спутниковой орбиты +/- 5 градусов </td>
+              </tr>
+              <tr>
+                <td>RA_STN_TYPE</td>
+                <td>тип радиоастрономической станции в полосе частот, упомянутой в п. C3b (S ? однозеркальный
+                  телескоп,
+                  V ? станция интерферометрии со сверхбольшой базой (VLBI)) </td>
+              </tr>
+              <tr>
+                <td>EIRP_NOM</td>
+                <td>дНоминальная(ые) эквивалентная(ые) изотропно излучаемая(ые) мощность(и) (э.и.и.м.) космической
+                  станции
+                  по оси луча (требуется только в случае линии связи космос-космос) </td>
+              </tr>
+              <tr>
+                <td>SENSITIVITY</td>
+                <td>Порог чувствительности (в градусах Кельвина) для пассивных датчиков </td>
+              </tr>
+              <tr>
+                <td>DISPFORSEL</td>
+                <td>отображать ли для выбора в WEB-интерфейсе</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Assgn -->
+
+  <div class="modal_18 close" id="modal_18">
+    <div class="modal__inner_18">
+      <div class="slide_information">
+        <h1>Assgn</h1>
+        <div class="table-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th>Имя столбца</th>
+                <th>Краткое описание содержимого</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="table-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              <tr>
+                <td>ID </td>
+                <td>идентификатор записи</td>
+              </tr>
+              <tr>
+                <td>GRP_ID</td>
+                <td>опознавательный номер группы</td>
+              </tr>
+              <tr>
+                <td>SEQ_NO</td>
+                <td>порядковый номер </td>
+              </tr>
+              <tr>
+                <td>FREQ_SYM </td>
+                <td>обозначение, указывающее килогерцы [K], мегагерцы [M] или гигагерцы [G]</td>
+              </tr>
+              <tr>
+                <td>FREQ_ASSGN</td>
+                <td>присвоенная частота </td>
+              </tr>
+              <tr>
+                <td>FREQ_MHZ</td>
+                <td>частота в МГц </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Freq -->
+
+  <div class="modal_19 close" id="modal_19">
+    <div class="modal__inner_19">
+      <div class="slide_information">
+        <h1>Freq</h1>
+        <div class="table-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th>Имя столбца</th>
+                <th>Краткое описание содержимого</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="table-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              <tr>
+                <td>ID </td>
+                <td>идентификатор записи</td>
+              </tr>
+              <tr>
+                <td>GRP_ID</td>
+                <td>опознавательный номер группы</td>
+              </tr>
+              <tr>
+                <td>SEQ_NO</td>
+                <td>порядковый номер </td>
+              </tr>
+              <tr>
+                <td>FREQ_SYM </td>
+                <td>обозначение, указывающее килогерцы [K], мегагерцы [M] или гигагерцы [G]</td>
+              </tr>
+              <tr>
+                <td>FREQ_ASSGN</td>
+                <td>присвоенная частота </td>
+              </tr>
+              <tr>
+                <td>FREQ_MHZ</td>
+                <td>частота в МГц </td>
+              </tr>
+              <tr>
+                <td>FREQ_MIN</td>
+                <td>минимальная частота в МГц (присвоенная частота ? половина ширины полосы)</td>
+              </tr>
+              <tr>
+                <td>FREQ_MAX</td>
+                <td>максимальная частота в МГц (присвоенная частота + половина ширины полосы)</td>
+              </tr>
+              <tr>
+                <td>BDWDTH </td>
+                <td>присвоенная полоса частот, выраженная в кГц </td>
+              </tr>
+              <tr>
+                <td>FDG_REG </td>
+                <td>заключения: соответствие Регламенту радиосвязи;
+                  таблице 13А Предисловия к Международному списку частот (13А1) </td>
+              </tr>
+              <tr>
+                <td>D_PROT_EFF</td>
+                <td>дата, начиная с которой учитывается список присвоений согласно
+                  пп.1061?1065 РР или 1148?1154 РР, в зависимости от случая </td>
+              </tr>
+              <tr>
+                <td>WIC_NO </td>
+                <td>номер WIC/ИФИК, в котором последний раз опубликована заявка</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Emiss -->
+
+  <div class="modal_20 close" id="modal_20">
+    <div class="modal__inner_20">
+      <div class="slide_information">
+        <h1>Emiss</h1>
+        <div class="table-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th>Имя столбца</th>
+                <th>Краткое описание содержимого</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="table-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              <tr>
+                <td>ID </td>
+                <td>Уникальный идентификатор записи </td>
+              </tr>
+              <tr>
+                <td>GRP_ID</td>
+                <td>Идентификатор группы </td>
+              </tr>
+              <tr>
+                <td>SEQ_NO</td>
+                <td>порядковый номер </td>
+              </tr>
+              <tr>
+                <td>DESIGN_EMI</td>
+                <td>Обозначение излучения </td>
+              </tr>
+              <tr>
+                <td>PEP_MAX</td>
+                <td>Максимальное/среднее значение пиковой мощности огибающей (дБВт),
+                  подаваемой на вход антенны для каждого типа несущей </td>
+              </tr>
+              <tr>
+                <td>PWR_DS_MAX</td>
+                <td>Максимальная/средняя плотность мощности [дБ(Вт/Гц)] </td>
+              </tr>
+              <tr>
+                <td>PEP_MIN</td>
+                <td>Минимальная пиковая мощность огибающей, подаваемая на антенну [дБВт]</td>
+              </tr>
+              <tr>
+                <td>PWR_DS_MIN</td>
+                <td>Минимальная плотность мощности [дБВт/Гц]</td>
+              </tr>
+              <tr>
+                <td>C_TO_N</td>
+                <td>Требуемое C/N (общее, условия ясного неба)</td>
+              </tr>
+              <tr>
+                <td>PWR_DS_NBW</td>
+                <td>Плотность мощности [дБВт/Гц], усредненная по необходимой ширине полосы </td>
+              </tr>
+              <tr>
+                <td>PULSE_LENGTH</td>
+                <td>Длительность импульса (в мкс) для активных датчиков</td>
+              </tr>
+              <tr>
+                <td>PULSE_REP</td>
+                <td>Частота следования импульсов (в кГц) для активных датчиков</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Srv_cls -->
+
+  <div class="modal_21 close" id="modal_21">
+    <div class="modal__inner_21">
+      <div class="slide_information">
+        <h1>Srv_cls</h1>
+        <div class="table-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th>Имя столбца</th>
+                <th>Краткое описание содержимого</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="table-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              <tr>
+                <td>ID </td>
+                <td>Уникальный идентификатор записи </td>
+              </tr>
+              <tr>
+                <td>GRP_ID</td>
+                <td>Идентификатор группы </td>
+              </tr>
+              <tr>
+                <td>SEQ_NO</td>
+                <td>порядковый номер </td>
+              </tr>
+              <tr>
+                <td>STN_CLS</td>
+                <td>класс станции</td>
+              </tr>
+              <tr>
+                <td>NAT_SRV</td>
+                <td>характер службы</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Srv_area -->
+
+  <div class="modal_22 close" id="modal_22">
+    <div class="modal__inner_22">
+      <div class="slide_information">
+        <h1>Srv_area</h1>
+        <div class="table-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th>Имя столбца</th>
+                <th>Краткое описание содержимого</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="table-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              <tr>
+                <td>ID </td>
+                <td>Уникальный идентификатор записи </td>
+              </tr>
+              <tr>
+                <td>GRP_ID</td>
+                <td>Идентификатор группы </td>
+              </tr>
+              <tr>
+                <td>CTRY</td>
+                <td>обозначение страны или географической зоны</td>
+              </tr>
+              <tr>
+                <td>INTORGORSTATENUM</td>
+                <td>ссылка на IntOrgsAndStates(ID) для ADM (страны)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- S_as_stn -->
+
+  <div class="modal_23 close" id="modal_23">
+    <div class="modal__inner_23">
+      <div class="slide_information">
+        <h1>S_as_stn</h1>
+        <div class="table-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th>Имя столбца</th>
+                <th>Краткое описание содержимого</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="table-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              <tr>
+                <td>ID </td>
+                <td>Уникальный идентификатор записи </td>
+              </tr>
+              <tr>
+                <td>GRP_ID</td>
+                <td>Идентификатор группы </td>
+              </tr>
+              <tr>
+                <td>SAT_NAME</td>
+                <td>название взаимодействующей космической станции</td>
+              </tr>
+              <tr>
+                <td>BEAM_NAME</td>
+                <td>обозначение соответствующего луча спутниковой антенны</td>
+              </tr>
+              <tr>
+                <td>ACT_CODE</td>
+                <td>код, указывающий действие, которое следует предпринять по данному объекту </td>
+              </tr>
+              <tr>
+                <td>BEAM_OLD </td>
+                <td>предыдущее обозначение соответствующего луча спутниковой антенны</td>
+              </tr>
+              <tr>
+                <td>SAT_OLD</td>
+                <td>предыдущее название взаимодействующей космической станции</td>
+              </tr>
+              <tr>
+                <td>STN_TYPE</td>
+                <td>тип взаимодействующей космической станции: геостационарная [G] или негеостационарная [N]</td>
+              </tr>
+              <tr>
+                <td>LONG_NOM</td>
+                <td>номинальная долгота взаимодействующей космической станции, если она геостационарная: ? для з. д. и +
+                  для в. д.</td>
+              </tr>
+              <tr>
+                <td>ITUSATUNIQNUM</td>
+                <td>ссылка на ITUSats_UNIQ(ID)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- E_as_stn -->
+
+  <div class="modal_24 close" id="modal_24">
+    <div class="modal__inner_24">
+      <div class="slide_information">
+        <h1>E_as_stn</h1>
+        <div class="table-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th>Имя столбца</th>
+                <th>Краткое описание содержимого</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="table-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              <tr>
+                <td>ID </td>
+                <td>Уникальный идентификатор записи </td>
+              </tr>
+              <tr>
+                <td>GRP_ID</td>
+                <td>Идентификатор группы </td>
+              </tr>
+              <tr>
+                <td>SEQ_NO</td>
+                <td>порядковый номер </td>
+              </tr>
+              <tr>
+                <td>STN_NAME </td>
+                <td>название передающей или приемной станции </td>
+              </tr>
+              <tr>
+                <td>CTRY</td>
+                <td>обозначение страны или географического района, в котором расположена земная станция</td>
+              </tr>
+              <tr>
+                <td>ACT_CODE</td>
+                <td>код, указывающий действие, которое следует предпринять по данному объекту </td>
+              </tr>
+              <tr>
+                <td>LONG_DEG</td>
+                <td>градусы долготной координаты станции, выраженной в градусах, минутах и секундах</td>
+              </tr>
+              <tr>
+                <td>LONG_EW</td>
+                <td>указатель направления долготы: в. д. [E] или з. д. [W] </td>
+              </tr>
+              <tr>
+                <td>LONG_MIN </td>
+                <td>минуты долготной координаты станции, выраженной в градусах, минутах и секундах</td>
+              </tr>
+              <tr>
+                <td>LONG_SEC</td>
+                <td>секунды долготной координаты станции, выраженной в градусах, минутах и секундах </td>
+              </tr>
+              <tr>
+                <td>LAT_DEG</td>
+                <td>градусы широтной координаты станции, выраженной в градусах, минутах и секундах </td>
+              </tr>
+              <tr>
+                <td>LAT_NS</td>
+                <td>указатель направления широты: с. ш. [N] или ю. ш. [S]</td>
+              </tr>
+              <tr>
+                <td>LAT_MIN </td>
+                <td>минуты широтной координаты станции, выраженной в градусах, минутах и секундах </td>
+              </tr>
+              <tr>
+                <td>LAT_SEC</td>
+                <td>секунды широтной координаты станции, выраженной в градусах, минутах и секундах </td>
+              </tr>
+              <tr>
+                <td>NOISE_T </td>
+                <td>суммарная шумовая температура приемной системы, в градусах Кельвина, пересчитанная
+                  к выходу приемной антенны </td>
+              </tr>
+              <tr>
+                <td>GAIN</td>
+                <td>максимальное изотропное усиление антенны (в дБ) с одним десятичным знаком</td>
+              </tr>
+              <tr>
+                <td>BMWDTH</td>
+                <td>угловая ширина основного лепестка излучения, выраженная в градусах с двумя десятичными знаками</td>
+              </tr>
+              <tr>
+                <td>DIAG_E</td>
+                <td>Номер диаграммы направленности антенны для составляющих с совпадающей поляризацией в GIMS </td>
+              </tr>
+              <tr>
+                <td>DIAG_E_X </td>
+                <td>Номер диаграммы направленности антенны для составляющих с кроссполяризацией в GIMS </td>
+              </tr>
+              <tr>
+                <td>PATTERN_ID</td>
+                <td>пояснения к справочной таблице для диаграммы кополярной направленности антенны </td>
+              </tr>
+              <tr>
+                <td>PATTERN_ID_X</td>
+                <td>пояснения к справочной таблице для диаграммы кроссполярной направленности антенны </td>
+              </tr>
+              <tr>
+                <td>STN_OLD</td>
+                <td>предыдущее название передающей или приемной станции</td>
+              </tr>
+              <tr>
+                <td>LONG_DEC</td>
+                <td>долгота в градусах с четырьмя десятичными знаками </td>
+              </tr>
+              <tr>
+                <td>LAT_DEC</td>
+                <td>широта в градусах с четырьмя десятичными знаками </td>
+              </tr>
+              <tr>
+                <td>ANT_DIAM </td>
+                <td>диаметр антенны земной станции (в метрах) или диаметр эквивалентной антенны
+                  (т. е. диаметр в метрах параболической антенны с такими же характеристиками внеосевого
+                  излучения, что и у антенны приемной взаимодействующей земной станции) </td>
+              </tr>
+              <tr>
+                <td>ANT_ALT</td>
+                <td>высота антенны земной станции в метрах </td>
+              </tr>
+              <tr>
+                <td>CLIM_ZONE</td>
+                <td>дождевая климатическая зона </td>
+              </tr>
+              <tr>
+                <td>RCP_TYPE</td>
+                <td>код, указывающий, является ли тип приема индивидуальным [I] или коллективным [C]</td>
+              </tr>
+              <tr>
+                <td>PWR_MAX</td>
+                <td>максимальная суммарная мощность (дБВт) всех несущих (если применимо, на каждый ретранслятор),
+                  подаваемая на вход передающей антенны взаимодействующей земной станции </td>
+              </tr>
+              <tr>
+                <td>BDWDTH_AGGR</td>
+                <td>суммарная ширина полосы всех несущих (если применимо, на каждый ретранслятор),
+                  подаваемой на вход передающей антенны взаимодействующей земной станции </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ORBIT -->
+
+  <div class="modal_25 close" id="modal_25">
+    <div class="modal__inner_25">
+      <div class="slide_information">
+        <h1>ORBIT</h1>
+        <div class="table-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th>Имя столбца</th>
+                <th>Краткое описание содержимого</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="table-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              <tr>
+                <td>ID </td>
+                <td>Уникальный идентификатор записи </td>
+              </tr>
+              <tr>
+                <td>SATNUM</td>
+                <td>ссылка на ITUNon_Geo(SatNum)</td>
+              </tr>
+              <tr>
+                <td>ORB_ID </td>
+                <td>порядковый номер орбитальной плоскости </td>
+              </tr>
+              <tr>
+                <td>NBR_SAT_PL</td>
+                <td>число спутников в каждой плоскости негеостационарной орбиты </td>
+              </tr>
+              <tr>
+                <td>RIGHT_ASC </td>
+                <td>угловое разнесение в градусах между восходящим узлом и точкой весеннего равноденствия </td>
+              </tr>
+              <tr>
+                <td>INCLIN_ANG</td>
+                <td>кугол наклона спутниковой орбиты по отношению к плоскости экватора Земли </td>
+              </tr>
+              <tr>
+                <td>PRD_DDD</td>
+                <td>указание дней для отрезка времени, проходящего между двумя последовательными проходами
+                  негеостационарного
+                  спутника через какую-либо точку его орбиты </td>
+              </tr>
+              <tr>
+                <td>PRD_HH</td>
+                <td>указание часов для отрезка времени, проходящего между двумя последовательными
+                  проходами негеостационарного спутника через какую-либо точку его орбиты </td>
+              </tr>
+              <tr>
+                <td>PRD_MM</td>
+                <td>указание минут для отрезка времени, проходящего между двумя последовательными
+                  проходами негеостационарного спутника через какую-либо точку его орбиты</td>
+              </tr>
+              <tr>
+                <td>APOG</td>
+                <td>наибольшая высота в километрах негеостационарного спутника над поверхностью
+                  Земли или другого эталонного тела </td>
+              </tr>
+              <tr>
+                <td>APOG_EXP </td>
+                <td>экспонентная часть апогея, выраженная в виде степени числа 10</td>
+              </tr>
+              <tr>
+                <td>PERIG</td>
+                <td>наименьшая высота в километрах негеостационарного спутника над поверхностью
+                  Земли или другого эталонного тела </td>
+              </tr>
+              <tr>
+                <td>PERIG_EXP</td>
+                <td>экспонентная часть перигея, выраженная в виде степени числа 10 </td>
+              </tr>
+              <tr>
+                <td>PERIG_ARG</td>
+                <td>угловой разнос в градусах между восходящим узлом и перигеем эллиптической орбиты</td>
+              </tr>
+              <tr>
+                <td>OP_HT</td>
+                <td>Минимальная высота космической станции над поверхностью Земли, на которой ведутся передачи
+                  с какого-либо спутника, км</td>
+              </tr>
+              <tr>
+                <td>OP_HT_EXP</td>
+                <td>Экспонентная часть минимальной высоты, выраженной в степени 10 </td>
+              </tr>
+              <tr>
+                <td>F_STN_KEEP</td>
+                <td>символ, указывающий, используется ли [Y] или нет [N] функция удержания космической станции
+                  на орбите для обеспечения повторяющейся проекции движения спутника на поверхности Земли </td>
+              </tr>
+              <tr>
+                <td>RPT_PRD_DD</td>
+                <td>указание дня для периода времени, требуемого для возвращения группировки в свое(и)
+                  исходное(ые) положение(я)</td>
+              </tr>
+              <tr>
+                <td>RPT_PRD_HH</td>
+                <td>указание часа для периода времени, требуемого для возвращения группировки в свое(и)
+                  исходное(ые) положение(я)</td>
+              </tr>
+              <tr>
+                <td>RPT_PRD_MM</td>
+                <td>указание минут для периода времени, требуемого для возвращения группировки в свое(и)
+                  исходное(ые) положение(я) </td>
+              </tr>
+              <tr>
+                <td>RPT_PRD_SS</td>
+                <td>указание секунд для периода времени, требуемого для возвращения группировки в свое(и)
+                  исходное(ые) положение(я) </td>
+              </tr>
+              <tr>
+                <td>F_PRECESS</td>
+                <td>символ, указывающий, должна ли [Y] или нет [N] при моделировании космической станции
+                  использоваться конкретная скорость прецессии восходящего узла орбиты вместо члена J2 </td>
+              </tr>
+              <tr>
+                <td>PRECESSION</td>
+                <td>для космической станции, при моделировании которой будет использоваться конкретная
+                  скорость прецессии восходящего узла орбиты вместо члена J2, указывается скорость
+                  прецессии (градусы/сутки), измеренная против часовой стрелки в экваториальной плоскости </td>
+              </tr>
+              <tr>
+                <td>LONG_ASC</td>
+                <td>долгота восходящего узла для j-ой орбитальной плоскости, измеренная против часовой
+                  стрелки в экваториальной плоскости от направления гринвичского меридиана до точки,
+                  где спутниковая орбита пересекает экваториальную плоскость с юга на север (0°=j меньше 360°) </td>
+              </tr>
+              <tr>
+                <td>KEEP_RNGE</td>
+                <td>допустимое отклонение долготы восходящего узла </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Phase -->
+
+  <div class="modal_26 close" id="modal_26">
+    <div class="modal__inner_26">
+      <div class="slide_information">
+        <h1>Phase</h1>
+        <div class="table-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th>Имя столбца</th>
+                <th>Краткое описание содержимого</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="table-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              <tr>
+                <td>ID </td>
+                <td>Уникальный идентификатор записи </td>
+              </tr>
+              <tr>
+                <td>ITUORBITNUM</td>
+                <td>ссылка на ITUOrbit(ID)</td>
+              </tr>
+              <tr>
+                <td>ORB_SAT_ID</td>
+                <td>порядковый номер спутника в орбитальной плоскости</td>
+              </tr>
+              <tr>
+                <td>PHASE_ANG</td>
+                <td>начальный фазовый угол спутника в орбитальной плоскости </td>
+              </tr>
+              <tr>
+                <td>D_REF </td>
+                <td>день и время, когда спутник находится в позиции,
+                  определяемой величиной Omega_j (дата в формате ггггммдд, время в формате ччммсс) </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <script src="js/main1.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</body>
+
+</html>
